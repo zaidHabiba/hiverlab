@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7c26f08d-81d3-4804-ac3c-877c57c142c3" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1dgJhsykk6iSKXGSmKplTz5M8uB" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\zaid Habiba\PycharmProjects\hiverlab_py_simulator\programs\words_hello_word" />
+      <recent name="C:\Users\zaid Habiba\PycharmProjects\hiverlab_py_simulator\programs\Words_Hello word" />
+      <recent name="C:\Users\zaid Habiba\PycharmProjects\hiverlab_py_simulator\static\images" />
+      <recent name="C:\Users\zaid Habiba\PycharmProjects\hiverlab_py_simulator\hiverlab_py_simulator" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\zaid Habiba\PycharmProjects\hiverlab_py_simulator\programs" />
+      <recent name="C:\Users\zaid Habiba\PycharmProjects\hiverlab_py_simulator\static\icons" />
+      <recent name="C:\Users\zaid Habiba\PycharmProjects\hiverlab_py_simulator\static\images" />
+      <recent name="C:\Users\zaid Habiba\PycharmProjects\hiverlab_py_simulator\templates\app" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Django server.hiverlab_py_simulator">
+    <configuration name="hello_app (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="hiverlab_py_simulator" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/programs/words_hello_word" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/programs/words_hello_word/hello_app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="hello_app" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="hiverlab_py_simulator" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\zaid Habiba\PycharmProjects\hiverlab_py_simulator\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/programs/Words_Hello word" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/programs/Words_Hello word/hello_app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="hiverlab_py_simulator" type="Python.DjangoServer" factoryName="Django server">
+      <module name="hiverlab_py_simulator" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="hiverlab_py_simulator.settings" />
+      </envs>
+      <option name="SDK_HOME" value="C:\ProgramData\Anaconda3\envs\untitled3\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Django server.hiverlab_py_simulator" />
+      <item itemvalue="Python.hello_app" />
+      <item itemvalue="Python.hello_app (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.hello_app (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7c26f08d-81d3-4804-ac3c-877c57c142c3" name="Default Changelist" comment="" />
+      <created>1592840925100</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1592840925100</updated>
+      <workItem from="1592841078799" duration="45602000" />
+      <workItem from="1593023102035" duration="19953000" />
+      <workItem from="1593104424467" duration="33494000" />
+      <workItem from="1593189359721" duration="3982000" />
+      <workItem from="1593245105114" duration="24710000" />
+      <workItem from="1593362535935" duration="2329000" />
+      <workItem from="1593365034444" duration="269000" />
+      <workItem from="1593365403649" duration="1396000" />
+      <workItem from="1593409849962" duration="7853000" />
+      <workItem from="1593665635503" duration="818000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="72" y="27" width="1092" height="686" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593464955585">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="72" y="27" width="1092" height="686" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1360.728/1360.0.1366.728@0.0.1360.728" timestamp="1593464955585" />
+    <state x="426" y="167" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1593466211348">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="426" y="167" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1360.728/1360.0.1366.728@0.0.1360.728" timestamp="1593466211348" />
+    <state x="410" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1593169331385">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="410" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1360.728/1360.0.1366.728@0.0.1360.728" timestamp="1593169331385" />
+    <state x="412" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1592864083710" />
+    <state x="399" y="0" key="#hiverlab_py_simulator" timestamp="1593362702372">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="399" y="0" key="#hiverlab_py_simulator/0.0.1360.728/1360.0.1366.728@0.0.1360.728" timestamp="1593362702372" />
+    <state x="460" y="119" key="FileChooserDialogImpl" timestamp="1593464937896">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="460" y="119" key="FileChooserDialogImpl/0.0.1360.728/1360.0.1366.728@0.0.1360.728" timestamp="1593464937896" />
+    <state width="1317" height="235" key="GridCell.Tab.-1.bottom" timestamp="1593100018029">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state width="1317" height="235" key="GridCell.Tab.-1.bottom/0.0.1360.728/1360.0.1366.728@0.0.1360.728" timestamp="1593100018029" />
+    <state width="1317" height="235" key="GridCell.Tab.-1.center" timestamp="1593100018029">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state width="1317" height="235" key="GridCell.Tab.-1.center/0.0.1360.728/1360.0.1366.728@0.0.1360.728" timestamp="1593100018029" />
+    <state width="1317" height="235" key="GridCell.Tab.-1.left" timestamp="1593100018029">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state width="1317" height="235" key="GridCell.Tab.-1.left/0.0.1360.728/1360.0.1366.728@0.0.1360.728" timestamp="1593100018029" />
+    <state width="1317" height="235" key="GridCell.Tab.-1.right" timestamp="1593100018029">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state width="1317" height="235" key="GridCell.Tab.-1.right/0.0.1360.728/1360.0.1366.728@0.0.1360.728" timestamp="1593100018029" />
+    <state width="1317" height="175" key="GridCell.Tab.0.bottom" timestamp="1593528624413">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state width="1317" height="175" key="GridCell.Tab.0.bottom/0.0.1360.728/1360.0.1366.728@0.0.1360.728" timestamp="1593465151123" />
+    <state width="1323" height="157" key="GridCell.Tab.0.bottom/0.0.1360.728/1360.0.1366.728@1360.0.1366.728" timestamp="1593206871835" />
+    <state width="1323" height="211" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1593150757475" />
+    <state width="1317" height="175" key="GridCell.Tab.0.bottom/1360.0.1366.728/0.0.1360.728@0.0.1360.728" timestamp="1593528624413" />
+    <state width="1317" height="175" key="GridCell.Tab.0.center" timestamp="1593528624364">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state width="1317" height="175" key="GridCell.Tab.0.center/0.0.1360.728/1360.0.1366.728@0.0.1360.728" timestamp="1593465151122" />
+    <state width="1323" height="157" key="GridCell.Tab.0.center/0.0.1360.728/1360.0.1366.728@1360.0.1366.728" timestamp="1593206871835" />
+    <state width="1323" height="211" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1593150757475" />
+    <state width="1317" height="175" key="GridCell.Tab.0.center/1360.0.1366.728/0.0.1360.728@0.0.1360.728" timestamp="1593528624364" />
+    <state width="1317" height="175" key="GridCell.Tab.0.left" timestamp="1593528624363">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state width="1317" height="175" key="GridCell.Tab.0.left/0.0.1360.728/1360.0.1366.728@0.0.1360.728" timestamp="1593465151122" />
+    <state width="1323" height="157" key="GridCell.Tab.0.left/0.0.1360.728/1360.0.1366.728@1360.0.1366.728" timestamp="1593206871834" />
+    <state width="1323" height="211" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1593150757475" />
+    <state width="1317" height="175" key="GridCell.Tab.0.left/1360.0.1366.728/0.0.1360.728@0.0.1360.728" timestamp="1593528624363" />
+    <state width="1317" height="175" key="GridCell.Tab.0.right" timestamp="1593528624364">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state width="1317" height="175" key="GridCell.Tab.0.right/0.0.1360.728/1360.0.1366.728@0.0.1360.728" timestamp="1593465151122" />
+    <state width="1323" height="157" key="GridCell.Tab.0.right/0.0.1360.728/1360.0.1366.728@1360.0.1366.728" timestamp="1593206871835" />
+    <state width="1323" height="211" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1593150757475" />
+    <state width="1317" height="175" key="GridCell.Tab.0.right/1360.0.1366.728/0.0.1360.728@0.0.1360.728" timestamp="1593528624364" />
+    <state width="1317" height="235" key="GridCell.Tab.1.bottom" timestamp="1593100015995">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state width="1317" height="235" key="GridCell.Tab.1.bottom/0.0.1360.728/1360.0.1366.728@0.0.1360.728" timestamp="1593100015995" />
+    <state width="1323" height="168" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1592863893710" />
+    <state width="1317" height="235" key="GridCell.Tab.1.center" timestamp="1593100015995">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state width="1317" height="235" key="GridCell.Tab.1.center/0.0.1360.728/1360.0.1366.728@0.0.1360.728" timestamp="1593100015995" />
+    <state width="1323" height="168" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1592863893710" />
+    <state width="1317" height="235" key="GridCell.Tab.1.left" timestamp="1593100015995">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state width="1317" height="235" key="GridCell.Tab.1.left/0.0.1360.728/1360.0.1366.728@0.0.1360.728" timestamp="1593100015995" />
+    <state width="1323" height="168" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1592863893710" />
+    <state width="1317" height="235" key="GridCell.Tab.1.right" timestamp="1593100015995">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state width="1317" height="235" key="GridCell.Tab.1.right/0.0.1360.728/1360.0.1366.728@0.0.1360.728" timestamp="1593100015995" />
+    <state width="1323" height="168" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1592863893710" />
+    <state x="181" y="6" key="SettingsEditor" timestamp="1593362846625">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="181" y="6" key="SettingsEditor/0.0.1360.728/1360.0.1366.728@0.0.1360.728" timestamp="1593362846625" />
+    <state x="376" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1593291329411">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="376" y="189" key="com.intellij.ide.util.TipDialog/0.0.1360.728/1360.0.1366.728@0.0.1360.728" timestamp="1593291329411" />
+    <state x="343" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1592861457374">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="343" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1360.728/1360.0.1366.728@0.0.1360.728" timestamp="1592861457374" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/hiverlab_py_simulator$hello_app__1_.coverage" NAME="hello_app (1) Coverage Results" MODIFIED="1593298536221" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/programs/words_hello_word" />
+    <SUITE FILE_PATH="coverage/hiverlab_py_simulator$hello_app.coverage" NAME="hello_app Coverage Results" MODIFIED="1593291551535" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/programs/Words_Hello word" />
+  </component>
+</project>

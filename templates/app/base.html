@@ -1,0 +1,82 @@
+{% load staticfiles %}
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{% static "css/generic.css" %}">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+          integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+            integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+            crossorigin="anonymous"></script>
+    <title>HiverLab Python Code</title>
+    <link rel="icon" href="https://www.hiverlab.com/favicon.png" type="image/png" sizes="16x16">
+</head>
+
+<body style="background: #E3E3E3">
+{% if loadMenu %}
+    {% if isHomePage %}
+        <nav class="navbar navbar-expand-lg navbar-dark main-menu">
+        {% if passwordRequired %}
+            <a class="navbar-brand" href="{% url 'project' %}">
+                <img src="https://www.hiverlab.com/images/logo.png" width="100"
+                     class="d-inline-block align-top" alt=""
+                     loading="lazy">
+            </a>
+        {% endif %}
+    {% else %}
+        <nav class="navbar navbar-expand-lg navbar-dark main-menu" style="background: #403f3f !important;">
+        <a class="navbar-brand" href="{% url 'home' %}">
+            <img src="https://www.hiverlab.com/images/logo.png" width="100"
+                 class="d-inline-block align-top" alt=""
+                 loading="lazy">
+        </a>
+    {% endif %}
+<div class="collapse navbar-collapse" style="display: flex !important;" id="navbarText">
+    <ul class="navbar-nav mr-auto">
+        {% for item in projects %}
+            {% if item.programs_list.count > 0 %}
+                <li class="dropdown menu-link m-item">
+                    <a class="dropdown-toggle m-name-link" href="#" id="navbarDropdownMenuLink"
+                       role="button"
+                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        {{ item.project_name }}
+                    </a>
+                    <div>
+                        {% for program in item.programs_list %}
+                            <a class="m-l-item" href="{% url 'program' program.id %}"> {{ program.program_name }}</a>
+                        {% endfor %}
+                    </div>
+                </li>
+            {% endif %}
+        {% endfor %}
+    </ul>
+    <span class="navbar-text">
+            <ul class="navbar-nav mr-auto">
+                {% if loadBackMenuOption %}
+                    <li class="nav-item m-item" style="width: 150px">
+                        <a class="m-item" style="width: 150px;text-align: center"
+                           href="{% url 'project' %}">Back to Home</a>
+                    </li>
+                {% else %}
+                    <li class="nav-item menu-link m-item">
+                        <a class="menu-link" href="/admin">Admin</a>
+                    </li>
+                {% endif %}
+            </ul>
+        </span>
+</div>
+</nav>
+{% endif %}
+{% block content %}
+{% endblock %}
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+</html>

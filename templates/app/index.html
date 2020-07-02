@@ -1,0 +1,34 @@
+{% extends "app/base.html" %}
+{% load staticfiles %}
+{% load static %}
+{% block content %}
+    <div class="carousel slide index-box">
+        <h1>Welcome to the lab behind Hive</h1>
+        <div class="i-container">
+            <div class="i-text-section">
+                <h1>Collective intelligence</h1>
+                <p>
+                    Living in a connected world, we have enjoyed the benefit of
+                    technology. But instead of behaving as a consumer, how can
+                    you further apply technology to help your life.
+
+                </p>
+                <p>
+                    The knowledge world is evolving with trends
+                    like open API and visual programming.
+                    As an org believe in decentralized intelligence,
+                    We hope to further create accessible technology to our user, not as a
+                    solution or product, but as a free service to benefit their life.
+                    algorithm should be free when it's developed, the user makes
+                    it valuable.
+                    As a start, we are offering some
+                </p>
+            </div>
+            <div class="i-link-section">
+                <a class="i-link-button" href="{% url 'project' %}">Code Testbed</a>
+                <a class="i-link-button" href="">API Gateway</a>
+                <a class="i-link-button" href="">Explore Labs</a>
+            </div>
+        </div>
+    </div>
+{% endblock %}

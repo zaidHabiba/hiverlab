@@ -1,0 +1,14 @@
+pid=
+cert=/usr/local/etc/stunnel/stunnel.pem
+foreground=yes
+debug=7
+[https]
+accept=8001
+connect=8002
+TIMEOUTclose=1
+stunnel creates a fake certificate. By default on Mac, it's at /usr/local/etc/stunnel/stunnel.pem. It'll bring up a warning on your browser saying that your webpage can be fake but Facebook operations still work right. Since stunnel has to listen on one port and Python's development server cannot run on the same server, you must use different ports for accept (incoming) and connect (internal). Once you have your dev_https file or whatever you called it, run
+sudo stunnel dev_https
+to start the tunnelling. Then start your Python server.
+HTTPS=1 python manage.py runserver 0.0.0.0:8002
+Environment variable HTTPS must be set to 1 for it to return secure responses and since we previously set the internal port to 8002, we listen on 8002 from all incoming IPs. Then, your IP:8001 can accept HTTPS connections without changing your webserver and you can continue running another instance of HTTP Python server on a different port.
+Source

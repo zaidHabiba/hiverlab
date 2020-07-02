@@ -1,0 +1,131 @@
+{% extends "app/base.html" %}
+{% load staticfiles %}
+{% load static %}
+{% block content %}
+    {% if not passwordRequired %}
+        <div class="carousel slide program-box" style="min-width: 820px">
+            <div class="program-tools-section">
+                <div id="app-information">
+                    <h2>Information</h2>
+                    <h5>Project:</h5>
+                    <h6>{{ program.project_name }}</h6>
+                    <h5>Create at:</h5>
+                    <h6>{{ program.create_date }}</h6>
+                    <h5>Description:</h5>
+                    {% if  program.description %}
+                        <p>{{ program.description }}</p>
+                    {% else %}
+                        <h6>No Description</h6>
+                    {% endif %}
+                    {% if  program.git %}
+                        <a class="link" target="_blank" href="{{ program.git }}">Go to Git Repository</a>
+                    {% else %}
+                        <h6>No Git Repository</h6>
+                    {% endif %}
+                    <div class="splitter"></div>
+                </div>
+                <h2>Tools</h2>
+                <div id="run-button" class="icon-button">
+                    <img width="25" height="25" src="{% static 'icons/play.png' %}">
+                    <span>Run program</span>
+                </div>
+                <div id="stop-button" class="icon-button">
+                    <img width="25" height="25" src="{% static 'icons/stop.png' %}">
+                    <span>Stop execution</span>
+                </div>
+                <div style="display: none;" id="restart-button" class="icon-button">
+                    <img width="25" height="25" src="{% static 'icons/restart.png' %}">
+                    <span>Restart program</span>
+                </div>
+                <div class="splitter"></div>
+                <h4>Program Status</h4>
+                <div id="no-program-status">
+                    <h7>No Status to view.</h7>
+                    <div class="splitter"></div>
+                    <div>Notes:</div>
+                    <div class="note-block">
+                        <span>Use run program button</span>
+                        <div class="static-view">
+                            <img width="20" height="20" src="{% static 'icons/play.png' %}">
+                            <span>Run program</span>
+                        </div>
+                        to start program.
+                    </div>
+                    <div class="note-block">
+                        <span>Use stop execution button</span>
+                        <div class="static-view">
+                            <img width="20" height="20" src="{% static 'icons/stop.png' %}">
+                            <span>Stop execution</span>
+                        </div>
+                        to stop program.
+                    </div>
+                    <div class="note-block">
+                        <span>Use restart program button</span>
+                        <div class="static-view">
+                            <img width="25" height="25" src="{% static 'icons/restart.png' %}">
+                            <span>Restart program</span>
+                        </div>
+                        to restart program and clear consoles.
+                    </div>
+                </div>
+                <div style="display: none;" id="running-program-view" class="program-status">
+                    <div class="spinner-grow text-secondary" role="status">
+                        <span class="sr-only">Loading...</span>
+                    </div>
+                    <span>Program Running</span>
+                </div>
+                <div style="display: none;" id="error-program-view" class="program-status">
+                    <img width="20" height="20" src="{% static 'icons/error.png' %}">
+                    <span>Program Exception</span>
+                </div>
+                <div style="display: none;" id="finish-program-view" class="program-status">
+                    <img width="20" height="20" src="{% static 'icons/finish.png' %}">
+                    <span>Program finish execution</span>
+                </div>
+            </div>
+            <div class="program-console-section">
+                <div class="console-section">
+                    <div>
+                        <div>Output Console</div>
+                        <div>
+                            <div id="output-console-clear" class="text-button-red">Clear</div>
+                        </div>
+                    </div>
+                    <textarea readonly id="output-console"></textarea>
+                </div>
+                <div class="console-section input-console-section">
+                    <div>
+                        <div>Input Console</div>
+                        <div>
+                            <div id="input-console-clear" class="text-button-red">Clear</div>
+                        </div>
+                    </div>
+                    <textarea disabled id="input-console"> </textarea>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript" src="{% static "js/always-live-console.js" %}"></script>
+        <script type="text/javascript">
+            loader({{ program.id }});
+        </script>
+    {% else %}
+        <form method="get" action="{% url 'program' program.id %}">
+            <div class="program-login-form">
+                <div class="form-group">
+                    <h2>{{ program.program_name }}</h2>
+                    <label>this program is secured enter password to use it.</label>
+                </div>
+                {% if warningPassword %}
+                    <div class="alert alert-danger">
+                        Wrong Password try again!
+                    </div>
+                {% endif %}
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Password</label>
+                    <input type="password" class="form-control" id="pass" name="pass">
+                </div>
+                <button type="submit" id="program-login-button" class="btn btn-primary">Login</button>
+            </div>
+        </form>
+    {% endif %}
+{% endblock %}
